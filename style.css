@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height:60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image:url("logo.png");
+    background-size: cover;
+    height: 50px;
+    
+    
+
+}
+.border{
+    border: 2px solid transparent;
+
+}
+.border:hover{
+    border: 2px solid white;
+}
+/**box2**/
+
+.navadress{
+    color: white;
+    margin: 2px
+    ;
+    padding: 10px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.add-first{
+    color: white;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+
+.add-second{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+/**box3**/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(229, 154, 14);
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.search-input{
+    width: 600px;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+
+}
+
+/**box4**/
+
+.nav-signin{
+    color: white;
+    padding: 10px;
+
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-sec{
+    font-weight: 700;
+}
+
+/**box5**/
+.nav-return{
+    color: white;
+    padding: 15px;
+
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-weight: 700;
+}
+
+.cart{
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+.panel{
+    background-color: navy;
+    display: flex;
+    height: 40px;
+    color: white;
+    align-items: center;
+   
+    
+
+}
+
+.panel-deals{
+    margin-left: 600px;
+}
+
+.hey{
+    margin: 10px;
+    padding: 5px;
+}
+
+.panel-all{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.border1{
+    border: 2px transparent solid;
+}
+
+.border1:hover{
+    border: 2px orange;
+}
+
+
+.hero-section{
+    background-image: url("image.jpg");
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+}
+
+.hero-message {
+    background-color: white;
+    color: black;
+    height: 45px;
+    display: flex;
+    align-content: center;
+    width: 80%;
+   margin-bottom: 400px;
+   position: relative;
+   transition: .5s;
+}
+
+.hero-message:hover{
+    transform: rotateY('180')
+}
+
+.news{
+    margin: 10px;
+    margin-left: 80px;
+}
+
+.box{
+    height: 250px;
+    border: 2px solid transparent;
+    width: 25%;
+    margin: 25px;
+    
+
+    
+}
+
+.box:hover{
+    border: 2px white;
+}
+
+.HI{
+    background-image: url("bg.jpg");
+}
+
+
+.shop-section{
+    display: flex;
+    
+    
+}
+
+.one{
+    background-color: white;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.BG1{
+    background-image:url("im2.jpg") ;
+    background-size: cover;
+    height: 230px;
+}
+
+.BG2{
+    background-image: url("1m3.jpg");
+    background-size: cover;
+    height: 230px;
+}
+
+.BG3{
+    background-image: url("1m4.jpg");
+    background-size: cover;
+    height: 230px;
+}
+
+.BG4{
+    background-image: url("im6.jpg");
+    background-size: cover;
+    height: 230px;
+}
+
+.shop-section2{
+    display: flex;
+}
+
+.BG5{
+    background-image: url("h.jpg");
+    background-size: cover;
+    height: 230px;
+}
+.BG6{
+    background-image: url("hh.jpg");
+    background-size: cover;
+    height: 230px;
+}
+.BG7{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    height: 230px;
+}
+.BG8{
+    background-image: url("im2.jpg");
+    background-size: cover;
+    height: 230px;
+}
+
+.news{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
